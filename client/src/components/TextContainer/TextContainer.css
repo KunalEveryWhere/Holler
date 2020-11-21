@@ -1,0 +1,50 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: rgb(26, 25, 25);
+  height: 60%;
+  justify-content: space-between;
+  z-index: 99;
+  background-color: rgba(238, 237, 237, 0.329);
+  width: auto;
+  padding: 10px;
+}
+.activeHr hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+  margin-bottom: 2vh;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60%;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+.activeContainer img {
+  padding-left: 10px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+  font-size: 5vw;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
