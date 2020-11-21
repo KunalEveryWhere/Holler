@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+}
+
+.input {
+  border: none;
+  border-radius: 0px 0px 0px 30px;
+  border-top: 1px solid #d3d3d3;
+  padding: 5%;
+  width: 80%;
+  font-size: 1em;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.onlineSendIcon {
+  width: 45%;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  /* background: #2979ff; */
+  background: linear-gradient(
+    90deg,
+    rgba(168, 224, 99, 1) 100%,
+    rgba(86, 171, 47, 1) 0%
+  );
+  /* padding: 20px; */
+  display: inline-block;
+  border: none;
+  border-radius: 0px 30px 0px 30px;
+  width: 20%;
+  overflow: hidden;
+}
